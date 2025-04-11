@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://by44degfoju2h"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_dh1pe"]
+
+[resource]
+script = ExtResource("1_dh1pe")
+item_name = "Soda"
+base_price = 7.0
+starting_supply = 10.0
+starting_demand = 10.0
+base_stock_value = 10.0

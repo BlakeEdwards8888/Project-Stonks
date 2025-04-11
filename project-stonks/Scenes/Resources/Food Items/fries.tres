@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://bpjhm4rkuayao"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_5eqtx"]
+
+[resource]
+script = ExtResource("1_5eqtx")
+item_name = "French Fries"
+base_price = 5.0
+starting_supply = 15.0
+starting_demand = 10.0
+base_stock_value = 7.0

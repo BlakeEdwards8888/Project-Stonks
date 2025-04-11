@@ -1,0 +1,76 @@
+[gd_scene load_steps=2 format=3 uid="uid://b318awfwm5unn"]
+
+[ext_resource type="PackedScene" uid="uid://dxxriralsvpd5" path="res://Scenes/Interfaces/Components/Button.tscn" id="1_sv3te"]
+
+[node name="AlwaysOn" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Player Info" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -210.0
+offset_top = 10.0
+offset_right = -10.0
+offset_bottom = 90.0
+grow_horizontal = 0
+
+[node name="Date" type="Label" parent="Player Info"]
+layout_mode = 1
+offset_left = 5.0
+offset_right = 78.0
+offset_bottom = 23.0
+text = "Mon 4/20"
+
+[node name="Ready Cash" type="Label" parent="Player Info"]
+layout_mode = 1
+offset_left = 5.0
+offset_top = 25.0
+offset_right = 111.0
+offset_bottom = 48.0
+text = "Ready: $2,000"
+
+[node name="Net Worth" type="Label" parent="Player Info"]
+layout_mode = 1
+offset_left = 5.0
+offset_top = 50.0
+offset_right = 145.0
+offset_bottom = 73.0
+text = "Net Worth: $5,000"
+
+[node name="Tabs Container" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -152.0
+offset_top = -80.0
+offset_right = 153.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 10
+
+[node name="Inventory Tab" parent="Tabs Container" instance=ExtResource("1_sv3te")]
+layout_mode = 2
+size_flags_horizontal = 0
+text = "Inventory"
+
+[node name="Supplier Tab" parent="Tabs Container" instance=ExtResource("1_sv3te")]
+layout_mode = 2
+text = "Supplier"
+
+[node name="Orders Tab" parent="Tabs Container" instance=ExtResource("1_sv3te")]
+layout_mode = 2
+text = "Orders"
+
+[node name="Stocks Tab" parent="Tabs Container" instance=ExtResource("1_sv3te")]
+layout_mode = 2
+text = "Stocks"

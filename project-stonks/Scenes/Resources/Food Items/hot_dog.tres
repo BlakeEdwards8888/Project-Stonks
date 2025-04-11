@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://dhx4gtel464dy"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_33e2b"]
+
+[resource]
+script = ExtResource("1_33e2b")
+item_name = "Hot Dog"
+base_price = 10.0
+starting_supply = 10.0
+starting_demand = 10.0
+base_stock_value = 10.0
