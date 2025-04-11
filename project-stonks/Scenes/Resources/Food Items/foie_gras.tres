@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://c1qtm5vdgd2nm"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_s4xlu"]
+
+[resource]
+script = ExtResource("1_s4xlu")
+item_name = "Foie Gras"
+base_price = 25.0
+starting_supply = 5.0
+starting_demand = 10.0
+base_stock_value = 20.0

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://cj3foovn1bmev"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_vemr6"]
+
+[resource]
+script = ExtResource("1_vemr6")
+item_name = "Cheeseburger"
+base_price = 10.0
+starting_supply = 10.0
+starting_demand = 13.0
+base_stock_value = 12.0

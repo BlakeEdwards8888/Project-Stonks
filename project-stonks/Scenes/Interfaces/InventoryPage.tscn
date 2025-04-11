@@ -1,0 +1,158 @@
+[gd_scene format=3 uid="uid://df85kmkmep304"]
+
+[node name="InventoryPage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Inventory Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -203.5
+offset_right = 280.0
+offset_bottom = 203.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GridContainer" type="GridContainer" parent="Inventory Panel"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 50
+theme_override_constants/v_separation = 50
+columns = 5
+
+[node name="Inventory Slot" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot2" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot2"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot3" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot3"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot4" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot4"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot5" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot5"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot6" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot6"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot7" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot7"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot8" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot8"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot9" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot9"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot10" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot10"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot11" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot11"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot12" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot12"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot13" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot13"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot14" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot14"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Inventory Slot15" type="Panel" parent="Inventory Panel/GridContainer"]
+layout_mode = 2
+
+[node name="ColorRect" type="ColorRect" parent="Inventory Panel/GridContainer/Inventory Slot15"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0

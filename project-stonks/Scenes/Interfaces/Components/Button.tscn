@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dxxriralsvpd5"]
+
+[node name="Button" type="Button"]
+offset_right = 148.0
+offset_bottom = 61.0
+text = "BUTTON"

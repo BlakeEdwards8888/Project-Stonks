@@ -1,0 +1,117 @@
+[gd_scene load_steps=3 format=3 uid="uid://tqby5agumoxm"]
+
+[ext_resource type="PackedScene" uid="uid://dxxriralsvpd5" path="res://Scenes/Interfaces/Components/Button.tscn" id="2_60isx"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_an8bj"]
+font_size = 50
+
+[node name="StocksPage" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Stocks Chart Panel" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -404.0
+offset_top = -205.0
+offset_right = 404.0
+offset_bottom = 205.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="Stocks Chart Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -48.5
+offset_top = -11.5
+offset_right = 48.5
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Stocks Chart"
+label_settings = SubResource("LabelSettings_an8bj")
+
+[node name="Stock Selection" type="VBoxContainer" parent="Stocks Chart Panel"]
+layout_mode = 1
+offset_right = 68.0
+offset_bottom = 407.0
+theme_override_constants/separation = 5
+
+[node name="Stock 1" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 1"
+
+[node name="Stock 2" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 2"
+
+[node name="Stock 3" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 3"
+
+[node name="Stock 4" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 4"
+
+[node name="Stock 5" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 5"
+
+[node name="Stock 6" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 6"
+
+[node name="Stock 7" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 7"
+
+[node name="Stock 8" parent="Stocks Chart Panel/Stock Selection" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "STOCK 8"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Stocks Chart Panel"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -178.0
+offset_top = -36.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_constants/separation = 5
+
+[node name="Minus Button" parent="Stocks Chart Panel/HBoxContainer" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "-"
+
+[node name="Purchase Amount" type="Label" parent="Stocks Chart Panel/HBoxContainer"]
+layout_mode = 2
+text = "9999"
+
+[node name="Plus Button" parent="Stocks Chart Panel/HBoxContainer" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "+"
+
+[node name="Buy Button" parent="Stocks Chart Panel/HBoxContainer" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "BUY"
+
+[node name="Sell Button" parent="Stocks Chart Panel/HBoxContainer" instance=ExtResource("2_60isx")]
+layout_mode = 2
+text = "SELL"

@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://c5ep2qkuqykjh"]
+
+[ext_resource type="Script" path="res://Scenes/Scripts/food_item.gd" id="1_iu1bw"]
+
+[resource]
+script = ExtResource("1_iu1bw")
+item_name = "Steak"
+base_price = 20.0
+starting_supply = 10.0
+starting_demand = 15.0
+base_stock_value = 15.0
